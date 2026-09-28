@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Stay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Stay.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="nav-text">
+                    StudentStay.com
+                </div>
+            </div>
+            <div class="middle">
+                 <i class="fa-solid fa-circle-plus fa-beat"></i>
+                <p>list Your Room</p>
+               
+            </div>
+            <div class="right">
+              <a href="login.htm" style="color: white;"><i class="fa-solid fa-user"></i></a>
+              <div class="menu-container">
+               <button class ="menu-btn" id="menubtn"> <i class="fa-solid fa-bars"></i></button>
+               <div id="menu" class="menu">
+                <a href="HomePage.htm">Refresh</a>
+                <a href="login.htm">Log in</a>
+                <a href="signIn.htm"> Sign in</a>
+                <a href="About.htm">About </a>
+                <a href=""#>List Your room</a>
+            </div>
+               </div>
+            </div>
+            
+        </nav>
+    </header>
+<main>
+    <div class="Laptop-message">
+    <h1 >Find Your Stay</h1>  
+       <p>Search deals on Rental Rooms and much more.....</p> 
+    </div>
+</main>
+
+<div class="main2">
+    <div class="search-box">
+        <div class="search-field">
+        <label>Location</label>
+        <input type="text" placeholder="Search for city, location or area"id="Search-text">
+    </div>
+    <div class="search-field">
+        <label>College Name</label>
+        <input type="text" placeholder="Enter your college name" id="Search-text">
+    </div>
+
+    <button class="search-btn">Search</button>
+    </div>
+    <div class="image-tag">
+        <img src="C:\Users\prati\OneDrive\Desktop\projects\Student Stay\fort-removebg-preview.png">
+    </div>
+</div>
+<div class="Qoute">
+        “Time is the one thing students can never get back—use it wisely.” ⏳
+</div>
+  <section class="why">
+  <h2>Why StudentStay.com?</h2>
+<div class="cards">
+    <div class="card">
+      <div class="icon">📝</div>
+      <h3>Student Oriented </h3>
+      <p>Comfortable Place for Student,
+        where they can study without disturbance,
+        we make availablity only for students 
+      </p>
+    </div>
+     <div class="card">
+      <div class="icon">🚓</div>
+      <h3>Parental Promise</h3>
+      <p>We also promise to parents and make sure thier sons/dauthers are going to safe and protected 
+        so that they can be relaxed 
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏥</div>
+      <h3>Medical Emergency</h3>
+      <p>there is 24 x 7 medical emergency .We promise that if student have any problem related to health ,we make sure to student and  thier parents   </p>
+    </div>
+<div class="card">
+      <div class="icon">💬</div>
+      <h3>Reviews</h3>
+      <p>Trusted reviews from fellow student , First we check room then we allow them to list in our trustable website</p>
+    </div>
+</div>
+</section>
+<footer>
+    <p>You can find us here</p>
+    <div class="foot-icons">
+        <a href="https://www.instagram.com/pranshu_upadhyay10?igsi=MWlhaHl1aHc4aDRzag==" target ="blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/916307642389" target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https//t.me/P10215124"target="blank"><i class="fa-brands fa-telegram"></i></a>
+        
+    </div>
+</footer>
+<script>
+        const menuBtn = document.getElementById("menuBtn");
+const menu = document.getElementById("menu");
+
+menuBtn.addEventListener("click", function () {
+    menu.classList.toggle("show");
+});
+    </script>
+</body>
+
+</html>
